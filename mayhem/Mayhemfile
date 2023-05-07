@@ -1,0 +1,6 @@
+project: blend
+target: blend-fuzz
+
+cmds:
+    - cmd: ./blend-fuzz
+      libfuzzer: true
